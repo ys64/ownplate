@@ -41,6 +41,7 @@
               :message="hasError ? $t(errors[0]) : $t('sms.notice')"
             >
               <o-input
+                rootClass="w-full"
                 type="tel"
                 autocomplete="tel"
                 v-model="phoneNumber"
