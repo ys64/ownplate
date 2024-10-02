@@ -101,6 +101,7 @@
               :message="hasError ? $t(errors[0]) : ''"
             >
               <o-input
+                rootClass="w-full"
                 inputmode="numeric"
                 pattern="[0-9]*"
                 autocomplete="one-time-code"
@@ -121,6 +122,7 @@
           <div class="mt-2">
             <o-field>
               <o-input
+                rootClass="w-full"
                 type="text"
                 v-model="name"
                 maxlength="32"
