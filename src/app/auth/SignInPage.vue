@@ -41,6 +41,7 @@
               :message="errors.email && $t(errors.email[0])"
             >
               <o-input
+                rootClass="w-full"
                 class="whitespace-nowrap"
                 v-model="email"
                 type="email"
@@ -63,6 +64,7 @@
               :message="errors.password && $t(errors.password[0])"
             >
               <o-input
+                rootClass="w-full"
                 v-model="password"
                 type="password"
                 :placeholder="$t('admin.passwordPlaceHolder')"
