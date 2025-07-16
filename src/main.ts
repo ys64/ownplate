@@ -18,6 +18,7 @@ import Checkbox from "@/components/form/checkbox.vue";
 import Button from "@/components/form/button.vue";
 
 import Modal from "@/components/Modal.vue";
+import Radio from "@/components/Radio.vue";
 
 // sentry
 import * as Sentry from "@sentry/vue";
@@ -41,6 +42,7 @@ app.component("t-checkbox", Checkbox);
 app.component("t-button", Button);
 
 app.component("t-modal", Modal);
+app.component("t-radio", Radio);
 
 app.use(VueSocialSharing);
 app.use(Oruga, bulmaConfig);
